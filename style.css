@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Comfortaa');
+
+body {
+	background-color: navy;
+}
+
+canvas {
+	border: 1px solid yellow;
+}
+
+.holder {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.panel {
+	margin: auto;
+	display: table;
+	position: relative;
+	width: 100%;
+}
+
+p, h2 {
+	color: yellow;
+}
+
+p {
+	font-family: Comfortaa;
+	font-size: 18pt;
+}
+
+h2 {
+	margin: 0;
+	font-family: Caveat;
+	font-size: 36pt;
+}
+
+#message-holder {
+	width: 420px;
+}
+
+.scroll-notice {
+	transform: translate(0, -50%) rotate(-90deg);
+	top: 50%;
+	display: block;
+	position: absolute;
+}
+
+#notice-left {
+	left: 0px;
+}
+
+#notice-right {
+	right: 0px;
+}
