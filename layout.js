@@ -5,5 +5,5 @@ function layout() {
 	new CircleType(document.getElementById('head-en'))
 			.radius(384)
 			.dir(-1);
-	$('#tree').css("height", $(window).height() * 0.75);
+	$('#tree').css("height", $(window).height() * 0.7);
 }
