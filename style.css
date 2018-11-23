@@ -42,16 +42,16 @@ h2 {
 }
 
 .scroll-notice {
-	transform: translate(0, -50%) rotate(-90deg);
+	transform: rotate(-90deg) translate(0, -50%);
 	top: 50%;
 	display: block;
 	position: absolute;
 }
 
 #notice-left {
-	left: 0px;
+	left: -64px;
 }
 
 #notice-right {
-	right: 0px;
+	right: -64px;
 }
