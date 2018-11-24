@@ -15,10 +15,4 @@ $(document).ready(function() {
 	}, 50);
 
 	layout();
-	new CircleType(document.getElementById('head-ua'))
-			.radius(384);
-	new CircleType(document.getElementById('head-en'))
-			.radius(384)
-			.dir(-1);
-	$(window).resize(layout);
 });
